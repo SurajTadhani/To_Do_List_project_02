@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Edu+NSW+ACT+Foundation&family=Fira+Sans:wght@200&family=Lobster&family=Nunito+Sans:opsz,wght@6..12,300&family=Nunito:wght@300&family=Playfair+Display&family=Poppins:wght@500&family=Roboto:wght@300&family=Source+Code+Pro:ital@1&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'AR One Sans', sans-serif;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Serif 4', serif;
+}
+.container{
+ 
+  margin-top: 100px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.main-heading{
+  margin-left: 180px;
+  margin-bottom: 30px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 200px 150px 150px;
+  column-gap: 15px;
+  row-gap: 15px;
+  margin-top: 10px;
+  align-items: center;
+}
+#todo-input, #todo-date{
+  font-size: 15px;
+  padding: 10px 5px;
+
+}
+
+.btn-delete{
+  background-color: rgb(84, 4, 4);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0px;
+  cursor: pointer;
+
+
+}
+
+.btn-todo{
+  background-color: rgb(5,119, 19);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0px;
+  cursor: pointer;
+  
+}
